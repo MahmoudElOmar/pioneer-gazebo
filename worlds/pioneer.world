@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="pioneer">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <model name="pioneer_robot">
+        <include>
+            <uri>model://pioneer</uri>
+        </include>
+        <plugin name="pioneer_control" filename="plugins/build/libcontroller.so">
+          <controller>
+
+            <Kp>5.0</Kp>
+            <Ki>0.0</Ki>
+            <Kd>0.0</Kd>
+          </controller>
+          <left_velocity>0.0</left_velocity>
+          <right_velocity>0.0</right_velocity>
+        </plugin>
+    </model>
+  </world>
+</sdf>
