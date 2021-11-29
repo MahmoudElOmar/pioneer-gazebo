@@ -7,3 +7,15 @@ This repository first contains a gazebo plugin for controlling the robot. The pl
 The plugin source code can be find in the ```plugin``` folder
 
 ![alt text](https://github.com/MahmoudElOmar/pioneer-gazebo/blob/main/pioneer_2dx.png)
+
+
+To compile the plugin, rudimentary CMake knowledge is necessary. The steps are fairly simply though. In terminal : 
+
+1 - ```git clone <repository-git-link>```, or simply download the repository if you don't know git
+2 - ```cd pioneer-gazebo/plugin```
+3 - ```mkdir build```
+4 - ```cd build```
+5 - ```cmake ..``
+6  ```make```
+
+After executing these steps, you should have an ```.so``` file in the build directory. This ```.so``` file is the one to be linked when defining the ```<plugin>``` tag when inserting the model in the ```world.sdf``` file 
