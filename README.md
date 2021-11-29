@@ -15,7 +15,8 @@ To compile the plugin, rudimentary CMake knowledge is necessary. The steps are f
 2 - ```cd pioneer-gazebo/plugin```   
 3 - ```mkdir build```   
 4 - ```cd build```   
-5 - ```cmake ..``   
-6  ```make```   
+5 - ```cmake ..```   
+6 -  ```make```   
 
-After executing these steps, you should have an ```.so``` file in the build directory. This ```.so``` file is the one to be linked when defining the ```<plugin>``` tag when inserting the model in the ```world.sdf``` file 
+
+After executing these steps, you should have an ```.so``` file in the build directory. This ```.so``` file is the one to be linked when defining the ```<plugin>``` tag when inserting the model in the world ```.sdf``` file 
