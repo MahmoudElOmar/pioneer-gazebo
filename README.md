@@ -4,4 +4,6 @@ This is project aims at creating a simulating environment for the Pioneer 2DX. I
 
 This repository first contains a gazebo plugin for controlling the robot. The plugin can interface with a ROS, as it listens to the velocity commands for the fixed wheels, and publishes the global position w.r.t. the world frame. (more advanced settings would have the plugin publishing sensor data on which a localisation algorithm will be applied to estimate the global position)
 
+The plugin source code can be find in the "plugin" folder
+
 ![alt text](https://github.com/MahmoudElOmar/pioneer-gazebo/blob/main/pioneer_2dx.png)
