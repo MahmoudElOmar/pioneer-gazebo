@@ -19,4 +19,4 @@ To compile the plugin, rudimentary CMake knowledge is necessary. The steps are f
 6 -  ```make```   
 
 
-After executing these steps, you should have an ```.so``` file in the build directory. This ```.so``` file is the one to be linked when defining the ```<plugin>``` tag when inserting the model in the world ```.sdf``` file 
+After executing these steps, you should have an ```.so``` file in the build directory. This ```.so``` file is the one to be linked while defining the ```<plugin>``` tag in the model to be inserted in the world ```.sdf``` file 
