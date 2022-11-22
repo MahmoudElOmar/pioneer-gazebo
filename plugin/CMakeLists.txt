@@ -24,6 +24,6 @@ add_library(controller SHARED src/control_plugin.cc)
 #target_link_libraries(controller ${GAZEBO_LIBRARIES} ${roscpp_LIBRARIES} ${std_msgs_LIBRARIES} ${tf2_LIBRARIES} ${tf2_ros_LIBRARIES})
 target_link_libraries(controller ${GAZEBO_LIBRARIES} ${roscpp_LIBRARIES} ${std_msgs_LIBRARIES} ${geometry_msgs_LIBRARIES})
 
-add_executable(publisher src/vel_publisher.cpp)
-target_link_libraries(publisher ${GAZEBO_LIBRARIES} ${roscpp_LIBRARIES} ${std_msgs_LIBRARIES})
+#add_executable(publisher src/vel_publisher.cpp)
+#target_link_libraries(publisher ${GAZEBO_LIBRARIES} ${roscpp_LIBRARIES} ${std_msgs_LIBRARIES})
 
