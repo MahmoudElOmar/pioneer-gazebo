@@ -8,8 +8,8 @@
 
 int main(int argc, char **argv)
 {
-    double leftWheelVelocity = 0.0;
-    double rightWheelVelocity = 0.0;
+    double leftWheelVelocity = 10.0;
+    double rightWheelVelocity = 10.0;
 
     if (argc == 0)
     {
