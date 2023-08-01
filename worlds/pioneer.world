@@ -8,13 +8,13 @@
     <include>
       <uri>model://sun</uri>
     </include>
+
     <model name="pioneer_robot">
         <include>
             <uri>model://pioneer</uri>
         </include>
-        <plugin name="pioneer_control" filename="plugins/build/libcontroller.so">
+        <plugin name="pioneer_control" filename="plugin/bin/libcontroller.so">
           <controller>
-
             <Kp>5.0</Kp>
             <Ki>0.0</Ki>
             <Kd>0.0</Kd>
