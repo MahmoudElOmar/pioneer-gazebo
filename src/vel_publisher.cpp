@@ -20,7 +20,7 @@ void pose_callback(geometry_msgs::Pose2DPtr &msg)
 int main(int argc, char **argv)
 {
     double leftWheelVelocity = 10.0;
-    double rightWheelVelocity = 10.0;
+    double rightWheelVelocity = 10.0; // test commit
 
     if (argc == 0)
     {
